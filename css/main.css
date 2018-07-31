@@ -4,7 +4,7 @@
 body{
 
     background: beige;
-    background-image: url("../img/somethingpeach.com-wallpaper_009_1440x900.jpg");
+    background-image: url("../img/HyUPa8.jpg");
     background-repeat: no-repeat;
     background-attachment: inherit;
     background-position: center;
@@ -101,22 +101,54 @@ a:visited {
     max-width: 80%;
     min-width: 80px;
     margin:auto;
-    margin-top: 50px;
-    
-    
+    margin-top: 50px; 
 }
 
 .article-place-holder{
 
     display:flex;
     justify-content: space-around;
-
 }
 #feat-article-header {
     padding-top: 250px;  
 }
 
+/* ---FOOTERS STYLES--- */
 
-
+.footer-wrapper {
     
+}
+#upper-footer {
+   
+    max-width: 80%;
+    min-height: 300px;
+    margin: auto;
+    border: 3px solid black;
+    border-bottom: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify; 
+}  
 
+#lower-footer{
+
+    width:  100%;
+    min-height: 150px;
+    border-top: 3px solid black;
+    
+}
+
+.upper-footer-titles{
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.footer-titles{
+padding-left: 50px;
+padding-right: 50px;
+}
+.footer-content-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
