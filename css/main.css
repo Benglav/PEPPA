@@ -5,7 +5,7 @@ body{
 
     background: beige;
     background-image: url("../img/HyUPa8.jpg");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-attachment: inherit;
     background-position: center;
     background-size: 100%;
@@ -92,6 +92,8 @@ a:visited {
 /* ---FEATURED CONTENT  STYLES--- */
 
 .article-place-holder {
+    display:flex;
+    justify-content: space-around;
     min-height: 700px;
     background-color: gray;
     background-image: url("../img/placeholder.png");
@@ -104,20 +106,49 @@ a:visited {
     margin-top: 50px; 
 }
 
-.article-place-holder{
-
-    display:flex;
-    justify-content: space-around;
-}
 #feat-article-header {
     padding-top: 250px;  
 }
+/* ---CONTENT AREA STYLES--- */
+
+.content-area{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    border: 3px solid black;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.con-article-place-holder {
+
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    height:400px;
+    width:300px;
+    background-color: gray;
+    background-image: url("../img/placeholder.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    max-width: 80%;
+    min-width: 80px;
+    margin:auto;
+    margin-top: 50px;
+    border: 3px solid black;
+}
+
+.article-header {
+    margin-top:100px;
+}
+
 
 /* ---FOOTERS STYLES--- */
 
-.footer-wrapper {
-    
-}
+
 #upper-footer {
    
     max-width: 80%;
@@ -134,7 +165,8 @@ a:visited {
    flex-direction: column;
     width:  100%;
     min-height: 150px;
-    border-top: 3px solid black;  
+    border-top: 3px solid black; 
+    padding-top: 50px;   
 }
 
 .upper-footer-titles{
@@ -169,4 +201,10 @@ padding-right: 50px;
 #lower-footer-links li {
     width: 100px;  
     margin: auto; 
+  }
+  #lower-footer-links li{
+
+    font-size:32px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
   }
