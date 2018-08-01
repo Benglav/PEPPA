@@ -130,11 +130,11 @@ a:visited {
 }  
 
 #lower-footer{
-
+   display: flex;
+   flex-direction: column;
     width:  100%;
     min-height: 150px;
-    border-top: 3px solid black;
-    
+    border-top: 3px solid black;  
 }
 
 .upper-footer-titles{
@@ -152,3 +152,21 @@ padding-right: 50px;
     flex-direction: row;
     justify-content: center;
 }
+
+#footer-logo {
+    height: 75px;
+    width: 75px;
+    margin: auto;
+    
+}
+
+#lower-footer-links{
+
+    display: flex;
+    height: 200px; 
+  }
+  
+#lower-footer-links li {
+    width: 100px;  
+    margin: auto; 
+  }
