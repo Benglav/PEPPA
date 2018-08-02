@@ -140,7 +140,10 @@ a:visited {
 .article-header {
     margin-top:100px;
 }
+.article-link a:link{
 
+    text-decoration: line-through;
+}
 
 /* ---FOOTERS STYLES--- */
 
