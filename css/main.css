@@ -147,22 +147,24 @@ a:visited {
 
 #upper-footer {
    
-    max-width: 80%;
-    min-height: 300px;
+    max-width: 95%;
+    min-height: 200px;
     margin: auto;
     border: 3px solid black;
     border-bottom: none;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify; 
+    background: rgba(256, 256, 256, 0.3);
+    
 }  
 
 #lower-footer{
    display: flex;
    flex-direction: column;
     width:  100%;
-    min-height: 150px;
     border-top: 3px solid black; 
-    padding-top: 50px;   
+    padding-top: 10px;
+    background: rgba(256, 256, 256, 0.5);   
 }
 
 .upper-footer-titles{
@@ -181,7 +183,7 @@ padding-right: 50px;
     justify-content: center;
 }
 
-#footer-logo {
+.footer-logo {
     height: 75px;
     width: 75px;
     margin: auto;
@@ -191,7 +193,7 @@ padding-right: 50px;
 #lower-footer-links{
 
     display: flex;
-    height: 200px; 
+    height: 50px; 
   }
   
 #lower-footer-links li {
