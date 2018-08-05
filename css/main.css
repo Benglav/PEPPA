@@ -9,6 +9,8 @@ body{
     background-attachment: inherit;
     background-position: center;
     background-size: 100%;
+    padding:0;
+    margin:0;
 }
 
 header{
@@ -76,8 +78,8 @@ a:visited {
 }
 
 #nav-img {
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 200px;
+    max-height: 100px;
     }
 
 
@@ -145,14 +147,14 @@ a:visited {
 
 #upper-footer {
    
-    max-width: 98%;
+    width:100%;
     min-height: 200px;
     margin: auto;
-    border: 3px solid black;
+    border-top: 1px solid beige;
     border-bottom: none;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify; 
-    background: rgba(256, 256, 256, 0.3);
+    background: rgba(256, 256, 256, 0.7);
     
 }  
 
@@ -160,13 +162,10 @@ a:visited {
    display: flex;
    flex-direction: column;
     width:  100%;
-    border-top: 3px solid black; 
+    border-top: 1px solid slategray; 
     padding-top: 10px;
-    background: rgba(256, 256, 256, 0.4);
-    margin-left:0;
-    margin-right:0;
-    padding-right: 0;
-    padding-left: 0;   
+    padding-bottom: 30px;
+    background: rgba(256, 256, 256, 0.7);  
 }
 
 .upper-footer-titles{
@@ -186,8 +185,8 @@ padding-right: 50px;
 }
 
 .footer-logo {
-    height: 75px;
-    width: 75px;
+    height: 100px;
+    width: 200px;
     margin: auto;
     
 }
@@ -200,13 +199,10 @@ padding-right: 50px;
   
 #lower-footer-links li {
     width: 100px;  
-    margin: auto; 
-  }
-  #lower-footer-links li{
-
+    margin: auto;
     font-size:32px;
     font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+    font-weight: bolder; 
   }
 
   .footer-social-container {
