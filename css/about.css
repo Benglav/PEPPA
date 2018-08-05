@@ -1,0 +1,15 @@
+.content_area{
+    max-width:70%;
+    margin:auto;
+}
+
+#about_photo{
+    height:500px;
+    width:400px;
+}
+.photo_text_area {
+    display:flex;
+}
+p {
+    margin-left:20px;
+}
