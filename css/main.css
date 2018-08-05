@@ -154,7 +154,7 @@ a:visited {
     border-bottom: none;
     font-family: 'Courier New', Courier, monospace;
     text-align: justify; 
-    background: rgba(256, 256, 256, 0.7);
+    background: rgba(256, 256, 256, 0.5);
     
 }  
 
@@ -162,10 +162,11 @@ a:visited {
    display: flex;
    flex-direction: column;
     width:  100%;
-    border-top: 1px solid slategray; 
+    border-top: 5px solid slategray; 
+    border-radius:  25%;
     padding-top: 10px;
     padding-bottom: 30px;
-    background: rgba(256, 256, 256, 0.7);  
+    background: rgba(256, 256, 256, 0.5);  
 }
 
 .upper-footer-titles{
