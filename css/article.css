@@ -40,3 +40,58 @@ h3{
     margin-right: 10px;
 }
 
+/*--- Rotating images styles  ---*/
+
+.rot-img1 {
+
+    -webkit-transform: rotate(10deg); /* Chrome & Safari */
+    -moz-transform: rotate(10deg); /* Firefox */
+    -ms-transform: rotate(10deg); /* IE 9+ */
+    -o-transform: rotate(10deg); /* Opera */
+    transform: rotate(10deg); /* CSS3 */
+}
+.rot-img2 {
+
+    -webkit-transform: rotate(-12deg); /* Chrome & Safari */
+    -moz-transform: rotate(-12deg); /* Firefox */
+    -ms-transform: rotate(-12deg); /* IE 9+ */
+    -o-transform: rotate(-12deg); /* Opera */
+    transform: rotate(-12deg); /* CSS3 */
+
+}
+.rot-img3 {
+
+    -webkit-transform: rotate(15deg); /* Chrome & Safari */
+    -moz-transform: rotate(15deg); /* Firefox */
+    -ms-transform: rotate(15deg); /* IE 9+ */
+    -o-transform: rotate(15deg); /* Opera */
+    transform: rotate(15deg); /* CSS3 */
+
+}
+.rot-img4 {
+
+    -webkit-transform: rotate(-12deg); /* Chrome & Safari */
+    -moz-transform: rotate(-12deg); /* Firefox */
+    -ms-transform: rotate(-12deg); /* IE 9+ */
+    -o-transform: rotate(-12deg); /* Opera */
+    transform: rotate(-12deg); /* CSS3 */
+
+}
+.rot-img5 {
+
+    -webkit-transform: rotate(15deg); /* Chrome & Safari */
+    -moz-transform: rotate(15deg); /* Firefox */
+    -ms-transform: rotate(15deg); /* IE 9+ */
+    -o-transform: rotate(15deg); /* Opera */
+    transform: rotate(15deg); /* CSS3 */
+
+}
+.rot-img6 {
+
+    -webkit-transform: rotate(-12deg); /* Chrome & Safari */
+    -moz-transform: rotate(-12deg); /* Firefox */
+    -ms-transform: rotate(-12deg); /* IE 9+ */
+    -o-transform: rotate(-12deg); /* Opera */
+    transform: rotate(-12deg); /* CSS3 */
+
+}
