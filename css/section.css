@@ -1,0 +1,28 @@
+.post-container{
+    width:75%;
+    margin:auto;
+}
+
+#post-image {
+
+    width:100px;
+    height:100px;
+    margin-right: 15px;
+}
+
+.post-wrapper {
+
+    display: flex;
+}
+.title-wrapper{
+    display:flex;
+    justify-content: space-between;
+}
+
+#post-date {
+
+    margin-right: 20px;
+}
+#post-title {
+    margin-left: 20px;
+}
